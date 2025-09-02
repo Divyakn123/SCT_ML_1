@@ -14,25 +14,25 @@ Target: SalePrice
 
 ⚙️ Tech Stack
 
-Python 🐍
+  Python 🐍
 
-Pandas & NumPy (data handling)
+  Pandas & NumPy (data handling)
 
-Scikit-Learn (ML model)
+  Scikit-Learn (ML model)
 
-Matplotlib/Seaborn (visualization)
+  Matplotlib/Seaborn (visualization)
 
 🚀 Workflow
 
-Data preprocessing (selected features)
+  Data preprocessing (selected features)
 
-Train-test split (80/20)
+  Train-test split (80/20)
 
-Model training with Linear Regression
+  Model training with Linear Regression
 
-Model evaluation → R² Score & RMSE
+  Model evaluation → R² Score & RMSE
 
-Predict price for new house input
+  Predict price for new house input
 
 📈 Example Prediction
 
