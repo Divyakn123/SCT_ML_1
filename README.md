@@ -1,52 +1,54 @@
-🏡 House Price Prediction (Linear Regression)
-📌 Overview
+# 🏡 House Price Prediction (Linear Regression)
 
-A simple Machine Learning project that predicts house prices using Linear Regression.
+## 📌 Overview
+
+A simple **Machine Learning project** that predicts **house prices** using **Linear Regression**.
 Features used:
 
-GrLivArea → Living area (sqft)
+* `GrLivArea` → Living area (sqft)
+* `BedroomAbvGr` → Bedrooms
+* `FullBath` → Bathrooms
 
-BedroomAbvGr → Bedrooms
+Target: `SalePrice`
 
-FullBath → Bathrooms
+---
 
-Target: SalePrice
+## ⚙️ Tech Stack
 
-⚙️ Tech Stack
+* Python 🐍
+* Pandas & NumPy
+* Scikit-Learn
+* Matplotlib
 
-  Python 🐍
+---
 
-  Pandas & NumPy (data handling)
+## 🚀 Workflow
 
-  Scikit-Learn (ML model)
+1. Data preprocessing (selected features)
+2. Train-test split (80/20)
+3. Train **Linear Regression** model
+4. Evaluate with **R² score & RMSE**
+5. Predict house price for new input
 
-  Matplotlib/Seaborn (visualization)
+---
 
-🚀 Workflow
-
-  Data preprocessing (selected features)
-
-  Train-test split (80/20)
-
-  Model training with Linear Regression
-
-  Model evaluation → R² Score & RMSE
-
-  Predict price for new house input
-
-📈 Example Prediction
+## 📈 Example Prediction
 
 House:
 
-2000 sqft
+* 2000 sqft
+* 3 bedrooms
+* 2 bathrooms
 
-3 bedrooms
+👉 Predicted Price: **\~\$XXX,XXX**
 
-2 bathrooms
+---
 
-👉 Predicted Price: ~$XXX,XXX (depends on dataset)
+## 📂 Repo Structure
 
-📂 Repo Structure
+```
 SCT_ML_1/
-│── house_price_prediction.ipynb   # Notebook with code
-│── README.md                      # Project summary
+│── README.md                      # Documentation
+│──house_price_prediction.ipynb    # Notebook
+```
+
